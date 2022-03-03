@@ -178,6 +178,7 @@ document.addEventListener("keyup", (e) => {
     if (!found || found.length > 1 || pressedKey > 1) {
         return
     } else {
+        console.log(pressedKey)
         insertLetter(pressedKey)
     }
 })
