@@ -175,7 +175,7 @@ document.addEventListener("keyup", (e) => {
     }
 
     let found = pressedKey.match(/[a-z]/gi)
-    if (!found || found.length > 1 || pressedKey > 1) {
+    if (!found || found.length > 1 || pressedKey.length > 1) {
         return
     } else {
         console.log(pressedKey)
