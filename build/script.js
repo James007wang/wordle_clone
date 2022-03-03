@@ -170,7 +170,7 @@ document.addEventListener("keyup", (e) => {
     }
 
     if (pressedKey === "Enter") {
-        checkGue
+        checkGuess ()
         return
     }
 
