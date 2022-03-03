@@ -170,12 +170,12 @@ document.addEventListener("keyup", (e) => {
     }
 
     if (pressedKey === "Enter") {
-        checkGuess()
+        checkGue
         return
     }
 
     let found = pressedKey.match(/[a-z]/gi)
-    if (!found || found.length > 1 || pressedKey.length > 1) {
+    if (!found || pressedKey.length > 1) {
         return
     } else {
         console.log(pressedKey)
